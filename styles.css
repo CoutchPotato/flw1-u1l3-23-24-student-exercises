@@ -9,9 +9,14 @@
     - Extra: Make the corners rounded
 */
 button {
-    font-size: 5px;
+    background-color: hotpink;
+    color: white;
+    border-color: hotpink;
+    font-size: 16px;
+    padding: 10px; 
     cursor: pointer;
     transition: transform 0.3s, background-color 0.3s, font-size 0.3s;
+  border-radius: 20px;
 }
 
 /* 
@@ -20,7 +25,8 @@ button {
     - Set the font size to 18px
 */
 button:hover {
-    
+    background-color:magenta;
+    font-size:18px;
 }
 
 button:active {
